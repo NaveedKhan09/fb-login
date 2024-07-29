@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+.fblog-in{
+    height: 100vh;
+    background-color: rgb(232, 235, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    
+    display: flex;
+    gap: 10px;
+    
+}
+.child{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+h1{
+    color: #1877F2;
+    font-size: 60px;
+    font-family:sans-serif;
+    font-weight: bold;
+
+}
+.child p{
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: 20px;
+
+}
+
+.form{
+    width: 430px;
+    height: 370px;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 372px;
+    height: 50px;
+    border-radius: 2px;
+    padding-left: 10px;
+    border: 2px solid rgba(153, 151, 151, 0.2);
+    border-radius: 7px;
+}
+input::placeholder{
+    font-size: 17px;
+}
+
+.login{
+    width: 383px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 7px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.recovery{
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+.recovery a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.recovery a:hover{
+    text-decoration: underline;
+}
+
+.signup{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 7px;
+    background-color: rgb(13, 211, 13);
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+}
